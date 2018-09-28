@@ -24,7 +24,7 @@ blog_button:
 # Navigation buttons in the front page.
 nav:
 #    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-     - {title: About Me, description: A button about me, url: 'https://me.ivanxie.com'}
+     - {title: About Me, description: An about me button, url: 'https://www.ivanxie.com/me/'}
 
 # Pagination
 gems: [jekyll-paginate]
