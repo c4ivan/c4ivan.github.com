@@ -1,50 +1,57 @@
 # Basic
 title: Ivan's Blog
-#subtitle: 形而上学
-#welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: 形而上学
-creator: <a href="http://www.ivanxie.com">@ivanxie</a>
+subtitle: 形而上学
+#description: 形而上学2
 
-url: "http://www.ivanxie.com"
+url: "https://www.ivanxie.com"
+
+# Comment
+comment:
+    disqus: c4ivan
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    # twitter: 
+    # mail: xieyeefun@gmail.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+#baidu:
+#    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+#ga:
+#    id: UA-84134159-3   
+#    host: auto  
+
+
 
 #permalink: /:year/:month/:title/
 permalink: /:title/
-
 # Format
 highlighter: rouge
+
+textColor: #FF0000
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 cover_color: slate
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
-    description: Visit blog
+    title: 博客主页
 
-# Navigation buttons in the front page.
+# Navigation buttons in the front page.s
 nav:
-#    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-     - {title: About Me, description: An about me button, url: '/me'}
+    - {title: 所有文章, description: archive, url: '/archive'}   
+#    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
 
 # Pagination
-gems: [jekyll-paginate]
-paginate: 10
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
 paginate_path: "page/:num/"
 
-# Comment
-comment:
-    disqus: c4ivan
-    #duoshuo: 
-    
-# Social
-social:
-#    weibo: onevcat
-#    wechat: ivan_earth
-#    twitter: onevcat
-#    gplus: 107108267983477358170
-    mail: xieyeefun@gmail.com
 
-# Google Analytics
-ga:
-    # id: your_ga_id
-    # host: your_host
