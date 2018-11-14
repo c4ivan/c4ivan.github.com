@@ -1,12 +1,13 @@
 ---
-layout：post 
+layout: post 
 
-title： DocsPortal
+title: DocsPortal
 
-date： 2018-11-14
-
+date: 2018-11-14
 
 ---
+
+
 
 ## 规划
 
