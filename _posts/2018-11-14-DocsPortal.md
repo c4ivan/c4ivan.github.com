@@ -1,12 +1,12 @@
 ---
 layout：post 
-title： 效率提升：文档库搭建
+title： DocsPortal
 date： 2018-11-14
 
 
 ---
 
-### 规划
+## 规划
 
 初衷是为了提高工作效率，原来公司的文档库用的是一个ftp，搜索，展示都不尽如人意。搭建这么一个文档库，就是为了提高工作效率。
 
@@ -20,7 +20,11 @@ date： 2018-11-14
 
 使用wordpress+知识库的主题基本可以满足文档库的所有需求。wordpress插件系统确实使用方便，功能丰富，唯一的问题就是主题都比较贵。
 
-### 过程
+---
+
+
+
+## 过程
 
 #### LNMP+Wordpress安装
 
@@ -42,13 +46,23 @@ LNMP安装完成后，使用lnmp add 添加虚拟主机地址，LNMP默认会在
 
 > [root@VPS-JEADCN2C www]# chown -R apache:apache doc.ivanxie.com/
 
+
+
 安装插件：
 
-​	*Imagepaste*     支持在文章编辑页面直接粘贴图片。
+​	*Imagepaste*     
+
+​	支持在文章编辑页面直接粘贴图片。
 
 ​	~~*Pinyin Slugs*	  将中文标题自动转换为拼音url，否则文章发布后无法打开。~~ 英文版需要，中文版wordpress不需要。
 
-​	*Profile Builder*  页面权限管控工具，限制只有登陆后才能查看所有文章。
+​	*Profile Builder*  
+
+​	页面权限管控工具，限制只有登陆后才能查看所有文章。
+
+​        *Mammoth .docx converter* 
+
+​	可以将docx文件转换为wordpress文章
 
 ~~替换google链接：~~
 
@@ -60,9 +74,13 @@ LNMP安装完成后，使用lnmp add 添加虚拟主机地址，LNMP默认会在
 
 ​	直接使用插件*Disable Google Fonts* 即可
 
-​        *Mammoth .docx converter* 可以将docx文件转换为wordpress文章
 
-### 结果
+
+---
+
+
+
+## 结果
 
 基本达到预期结果 ：）
 
