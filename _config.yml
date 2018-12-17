@@ -1,5 +1,5 @@
 # Basic
-title: Ivan's Blog
+title: Ivan's restricted place
 subtitle: 形而上学
 #description: 形而上学2
 
@@ -40,7 +40,7 @@ cover_color: slate
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客主页
+    title: 自留地主页
 
 # Navigation buttons in the front page.s
 nav:
