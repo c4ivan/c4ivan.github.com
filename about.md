@@ -11,11 +11,11 @@ date: 二 零 一 八
 
 
 
-> ADC / Cyber Security / Cloud Computing
+> ADC  /Cloud Computing /Anti-DDOS 
 >
-> Script: Python / Shell 
+> Python /Shell 
 >
-> OS: Linux 
+> Familiar with Linux /Windows 
 
 ---
 
@@ -27,6 +27,6 @@ date: 二 零 一 八
 
 ---
 
-#### Contact me via wechat
+#### Let’s Wechat
 
 ![1538971092665](/images/wechat.png)
