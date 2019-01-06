@@ -284,10 +284,6 @@ set latency [expr ($response_time - $request_time)]
 
 ###### 参考链接
 
-[百度: 大规模网站SSL实践](http://op.baidu.com/2015/04/https-s01a01/)
+~~[百度: 大规模网站SSL实践](http://op.baidu.com/2015/04/https-s01a01/)~~
 
 [SSLlab 测试](https://www.ssllabs.com/ssltest/analyze.html)
-
- 
-
-​    "
